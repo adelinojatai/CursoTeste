@@ -36,7 +36,7 @@ public class CalculaTest {
 	@Test
 	public void testDividir() {
 		calcula = new Calcula();
-		result = calcula.dividir(20.0, 10.0);
+		result = calcula.dividir(20.0, 2.0);
 		
 		assertEquals(Double.valueOf(2.0), result);
 	}
